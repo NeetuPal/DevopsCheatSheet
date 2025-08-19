@@ -72,8 +72,14 @@ git fetch origin
 ```sh
 git remote -v
 ```
-
-
+### You can check the installed AWS CLI version with this command:
+```sh
+aws --version
+```
+### Confirms installation path.
+```sh
+which aws
+```
 
 
 
