@@ -1,4 +1,4 @@
-# cheatsheet
+# CheatSheet
 
 #Check disk usage of your home directory
 ```sh
