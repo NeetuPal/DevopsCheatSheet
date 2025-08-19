@@ -15,5 +15,4 @@ du -ah ~ | sort -rh | head -20
 
 test
 test1
-test2
 
