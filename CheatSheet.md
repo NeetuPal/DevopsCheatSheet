@@ -64,7 +64,10 @@ git restore --staged --worktree .
 ```sh
 git rebase main
 ```
-
+### Always start with: Fetch(to see what changed)
+```sh
+git fetch origin
+```
 
 
 
