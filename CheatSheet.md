@@ -58,6 +58,14 @@ git restore .
 ```sh
 git restore --staged --worktree .
 ```
+## Case Rebase: You created feature branch from main, then both got new commits
+
+### First stash the changes then rebase so that new changes reflect in local from remote the stash pop to bring back to working directory then
+```sh
+git rebase main
+```
+
+
 
 
 
