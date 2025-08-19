@@ -68,6 +68,10 @@ git rebase main
 ```sh
 git fetch origin
 ```
+### Shows all configured remotes with their fetch/push URLs.
+```sh
+git remote -v
+```
 
 
 
