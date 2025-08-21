@@ -80,6 +80,19 @@ aws --version
 ```sh
 which aws
 ```
+### when pushing the first time->Sets upstream (tracking branch) → Git now knows the link.
+```sh
+git push -u origin main
+```
+### If you forgot -u the first time, you can set it afterward:
+```sh
+git branch --set-upstream-to=origin/main main
+```
+### rename branch to main
+```sh
+git branch -M main
+```
+
 
 
 
