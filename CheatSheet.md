@@ -92,7 +92,16 @@ git branch --set-upstream-to=origin/main main
 ```sh
 git branch -M main
 ```
-
+### to check the latest 3 versions of Terraform
+```sh
+gh release list --repo hashicorp/terraform --limit 3
+```
+```sh
+gh release list --repo aws/aws-cli --limit 3
+```
+```sh
+gh release list --repo cli/cli --limit 3
+```
 
 
 
