@@ -125,7 +125,21 @@ echo "ghp_..." | gh auth login --with-token
 
 ### Kill (Ctrl + C) if you don’t need the process anymore. <br>EOF (Ctrl + D) if a program is waiting for input and you’re done.<br>Pause (Ctrl + Z) if you want to stop for now and maybe come back later.
 
-         
+ ### Show current shell    
+ ```sh
+echo $SHELL
+```
+
+### Show parent process (to see which shell launched)
+```sh
+ps -p $$
+```
+### In AWS CloudShell, sometimes you don’t have root privileges (sudo). If timedatectl fails, you can still force your session to use IST by setting the environment variable:
+```sh
+export TZ="Asia/Kolkata"
+```
+
+
 
 
 
