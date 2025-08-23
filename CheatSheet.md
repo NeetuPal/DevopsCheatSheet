@@ -138,7 +138,10 @@ ps -p $$
 ```sh
 export TZ="Asia/Kolkata"
 ```
-
+### Clean result — only one time, in 12-hour format. the reason for the second $() and the cut is to remove the duplicate time from uptime.
+```sh
+echo "$(date +"%I:%M:%S %p") $(command uptime | cut -d" " -f4-)"
+```
 
 
 
