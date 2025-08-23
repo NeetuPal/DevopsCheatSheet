@@ -156,5 +156,8 @@ $(date +%s)
 ```sh
 local filename="${1##*/}"
 ```
-
+### basename returns  → "/" for below cmd
+```sh
+"$(basename '/')"
+```
 
