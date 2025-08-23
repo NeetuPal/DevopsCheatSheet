@@ -107,7 +107,15 @@ gh release list --repo cli/cli --limit 3
 ```sh
 ~/.git-credentials
 ```
+### If you see osxkeychain → Git is storing credentials in macOS Keychain.
+```sh
+git config --get credential.helper
+```
 
+### Paste the token when prompted.
+```sh
+gh auth login --with-token
+```
 
 
 
