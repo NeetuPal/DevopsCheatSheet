@@ -142,7 +142,16 @@ export TZ="Asia/Kolkata"
 ```sh
 echo "$(date +"%I:%M:%S %p") $(command uptime | cut -d" " -f4-)"
 ```
-
+### %F: Short for %Y-%m-%d (Year-Month-Day)- Alternative Date Formats:
+```sh
+$(date +%Y%m%d_%H%M%S)
+```
+```sh
+$(date +%Y-%m-%d_%H-%M-%S)
+```
+```sh
+$(date +%s)
+```
 
 
 
