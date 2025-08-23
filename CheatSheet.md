@@ -103,6 +103,10 @@ gh release list --repo aws/aws-cli --limit 3
 gh release list --repo cli/cli --limit 3
 ```
 
+### Linux often does store git credentials here
+```sh
+~/.git-credentials
+```
 
 
 
