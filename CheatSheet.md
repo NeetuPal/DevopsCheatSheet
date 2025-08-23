@@ -123,9 +123,9 @@ That’s why your terminal is just sitting there waiting.
 echo "ghp_..." | gh auth login --with-token
 ```
 
-<!--Kill (Ctrl + C) if you don’t need the process anymore.
+### Kill (Ctrl + C) if you don’t need the process anymore. <br>EOF (Ctrl + D) if a program is waiting for input and you’re done.<br>Pause (Ctrl + Z) if you want to stop for now and maybe come back later.
 
-EOF (Ctrl + D) if a program is waiting for input and you’re done.
+         
 
-Pause (Ctrl + Z) if you want to stop for now and maybe come back later.
--->
+
+
