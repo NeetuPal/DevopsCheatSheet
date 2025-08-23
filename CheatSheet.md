@@ -152,6 +152,9 @@ $(date +%Y-%m-%d_%H-%M-%S)
 ```sh
 $(date +%s)
 ```
-
+### Remove the longest matching pattern that ends with a forward slash from the beginning of the string
+```sh
+local filename="${1##*/}"
+```
 
 
