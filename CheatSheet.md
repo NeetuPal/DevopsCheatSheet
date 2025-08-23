@@ -116,6 +116,11 @@ git config --get credential.helper
 ```sh
 gh auth login --with-token
 ```
-
+### The flag --with-token does not take the token directly on the command line.
+Instead, it tells gh to read the token from standard input (stdin).
+That’s why your terminal is just sitting there waiting.
+```sh
+echo "ghp_..." | gh auth login --with-token
+```
 
 
