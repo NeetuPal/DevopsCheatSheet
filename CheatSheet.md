@@ -160,4 +160,8 @@ local filename="${1##*/}"
 ```sh
 "$(basename '/')"
 ```
+### If Git saved your GitHub credentials in Keychain, running this will output your password or Personal Access Token (PAT)
+```sh
+security find-internet-password -s github.com -w
+```
 
