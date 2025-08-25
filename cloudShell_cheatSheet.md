@@ -1,4 +1,4 @@
-# CheatSheet
+# Cloud shell cheat sheet
 
 ### Check disk usage of your home directory
 ```sh
