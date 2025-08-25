@@ -46,7 +46,7 @@ git restore <file>
 ```sh
 git restore --staged <file>
 ```
-### rings src/app.py content from commit abc123.
+### Brings src/app.py content from commit abc123.
 ```sh
 git restore --source=abc123 src/app.py
 ```
