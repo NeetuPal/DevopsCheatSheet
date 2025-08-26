@@ -168,3 +168,7 @@ security find-internet-password -s github.com -w
 ```sh
 gh repo list <your-username> --limit 10
 ```
+### Short reusable alias (like git set-origin aws_user)
+```sh
+git config --global alias.set-origin '!f() { git remote set-url origin https://github.com/$(gh api user --jq .login)/$1.git; }; f'
+```
