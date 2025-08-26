@@ -164,4 +164,7 @@ local filename="${1##*/}"
 ```sh
 security find-internet-password -s github.com -w
 ```
-
+### List your repos
+```sh
+gh repo list <your-username> --limit 10
+```
