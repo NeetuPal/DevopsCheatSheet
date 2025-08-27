@@ -176,3 +176,12 @@ git config --global alias.set-origin '!f() { git remote set-url origin https://g
 ```sh
 git remote get-url origin
 ```
+### These details will be attached to your commits, but ⚠️ they don’t confirm GitHub authentication yet.
+```sh
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+```
+### Check your Git identity
+```sh
+git config --global --list
+```
