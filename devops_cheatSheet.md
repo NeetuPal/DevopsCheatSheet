@@ -172,3 +172,7 @@ gh repo list <your-username> --limit 10
 ```sh
 git config --global alias.set-origin '!f() { git remote set-url origin https://github.com/$(gh api user --jq .login)/$1.git; }; f'
 ```
+### To check specifically for origin
+```sh
+git remote get-url origin
+```
