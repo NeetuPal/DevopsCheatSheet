@@ -197,3 +197,28 @@ git remote set-url origin https://<USERNAME>:<PAT>@github.com/<USERNAME>/<REPO>.
 ```sh
 aws sts get-caller-identity
 ```
+### Create repo from Mac Terminal
+```sh
+mkdir secret_setup
+```
+```sh
+echo "# secret_setup" > README.md
+```
+```sh
+cd secret_setup
+```
+```sh
+echo "# secret_setup" > README.md
+```
+```sh
+git init
+```
+```sh
+git add README.md
+```
+```sh
+git add README.md
+```
+```sh
+gh repo create secret_setup --public --source=. --remote=origin --push
+```
