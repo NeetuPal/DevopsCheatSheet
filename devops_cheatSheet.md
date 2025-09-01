@@ -193,3 +193,7 @@ head -n 5 create-aws-user.sh
 ```sh
 git remote set-url origin https://<USERNAME>:<PAT>@github.com/<USERNAME>/<REPO>.git
 ```
+### Verify if CLI has credentials
+```sh
+aws sts get-caller-identity
+```
