@@ -185,3 +185,11 @@ git config --global user.email "your-email@example.com"
 ```sh
 git config --global --list
 ```
+### This will show the first 5 lines. Confirm your line 1 edit is really there.
+```sh
+head -n 5 create-aws-user.sh
+```
+### Use PAT directly in the remote URL
+```sh
+git remote set-url origin https://<USERNAME>:<PAT>@github.com/<USERNAME>/<REPO>.git
+```
