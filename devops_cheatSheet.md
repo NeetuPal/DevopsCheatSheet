@@ -222,3 +222,37 @@ git add README.md
 ```sh
 gh repo create secret_setup --public --source=. --remote=origin --push
 ```
+### Push a file to git repo
+```sh
+mkdir new_folder
+```
+```sh
+cp "/c/Users/Naresh Pal/Downloads/project-bolt-sb1-vqfzyeew/project/delete-aws-users-by-tag.sh" .
+```
+```sh
+git init
+```
+```sh
+git remote add origin https://github.com/NeetuPal/aws_user.git
+```
+```sh
+git config --global user.email "you@example.com"
+```
+```sh
+git config --global user.name "Your Name"
+```sh
+git branch -M main
+```
+```sh
+git branch --set-upstream-to=origin/main main
+```
+```sh
+git pull --rebase origin main
+```
+```sh
+ git pull origin main
+```
+```sh
+git push origin main
+```
+
