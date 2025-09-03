@@ -240,6 +240,7 @@ git config --global user.email "you@example.com"
 ```
 ```sh
 git config --global user.name "Your Name"
+```
 ```sh
 git branch -M main
 ```
