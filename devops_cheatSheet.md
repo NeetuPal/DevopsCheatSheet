@@ -122,7 +122,10 @@ That’s why your terminal is just sitting there waiting.
 ```sh
 echo "ghp_..." | gh auth login --with-token
 ```
-
+### check the GitHub CLI (gh) status
+```sh
+gh auth status
+```
 ### Kill (Ctrl + C) if you don’t need the process anymore. <br>EOF (Ctrl + D) if a program is waiting for input and you’re done.<br>Pause (Ctrl + Z) if you want to stop for now and maybe come back later.
 
  ### Show current shell    
