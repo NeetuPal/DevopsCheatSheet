@@ -223,6 +223,9 @@ git add README.md
 git add README.md
 ```
 ```sh
+git commit -m 'add' README.md
+```
+```sh
 gh repo create secret_setup --public --source=. --remote=origin --push
 ```
 ### Push a file to git repo
