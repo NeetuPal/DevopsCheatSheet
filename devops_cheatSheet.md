@@ -263,3 +263,18 @@ git pull --rebase origin main
 git push origin main
 ```
 
+### step for changing master → main
+```sh
+git branch -m master main
+```
+```sh
+git push -u origin main
+```
+Go to GitHub → Your Repository → Settings → Branches.
+
+Under Default branch, select main instead of master.
+
+Click Update.
+```sh
+git push origin --delete master
+```
