@@ -205,6 +205,9 @@ aws sts get-caller-identity
 mkdir secret_setup
 ```
 ```sh
+git branch -m main
+```
+```sh
 echo "# secret_setup" > README.md
 ```
 ```sh
@@ -215,9 +218,6 @@ echo "# secret_setup" > README.md
 ```
 ```sh
 git init
-```
-```sh
-git add README.md
 ```
 ```sh
 git add README.md
