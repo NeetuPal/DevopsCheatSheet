@@ -1,4 +1,4 @@
-# Cloud shell cheat sheet
+# git-commands
 
 ### Check disk usage of your home directory
 ```sh
