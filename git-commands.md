@@ -280,18 +280,20 @@ git push origin --delete master
 ```
 ### Git won’t let you rewrite history because you have uncommitted changes in your working directory
 1️⃣ Stash your changes temporarily
+```
 git stash
-
+```
 
 This saves your changes so the working directory is clean.
 
 Then run the history rewrite:
-
+```
 git filter-branch --force --index-filter \
 'git rm --cached --ignore-unmatch terraform-project/.env.aws' \
 --prune-empty --tag-name-filter cat -- --all
-
+```
 
 After that, you can apply your stashed changes back:
-
+```
 git stash pop
+```
