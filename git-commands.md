@@ -319,6 +319,7 @@ Force push the rewritten history to the remote:
 git push origin main --force
 ```
 
+
 Check:
 ```
 git log --all -- terraform-project/keypair.pem
@@ -326,3 +327,15 @@ git log --all -- terraform-project/.env.aws
 ```
 
 Should show nothing, meaning the files are gone from both local and remote.
+
+### Update the latest commit message
+```
+git commit --amend -m "New commit message"
+```
+
+This updates the most recent commit message.
+
+If you already pushed the commit, you’ll need to force push:
+```
+git push origin main --force
+```
