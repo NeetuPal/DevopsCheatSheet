@@ -286,7 +286,7 @@ git stash
 
 This saves your changes so the working directory is clean.
 
-Then run the history rewrite:
+Then run the history rewrite:(git rm --cached terraform-project/keypair.pem only affects future commits, not past ones.)
 ```
 git filter-branch --force --index-filter \
 'git rm --cached --ignore-unmatch terraform-project/.env.aws' \
