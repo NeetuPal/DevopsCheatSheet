@@ -301,3 +301,28 @@ git stash pop
 ```
 git push origin main --force
 ```
+### Safe Steps to Remove Permanently from Remote
+Start fresh (optional but recommended):
+```
+cd D:\
+git clone https://github.com/NeetuPal/terraform-ec2-setup.git repo-clean
+cd repo-clean
+```
+
+Remove sensitive files from all history:
+```
+git filter-repo --path terraform-project/keypair.pem --path terraform-project/.env.aws --invert-paths
+```
+
+Force push the rewritten history to the remote:
+```
+git push origin main --force
+```
+
+Check:
+```
+git log --all -- terraform-project/keypair.pem
+git log --all -- terraform-project/.env.aws
+```
+
+Should show nothing, meaning the files are gone from both local and remote.
