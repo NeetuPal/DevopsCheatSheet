@@ -297,3 +297,7 @@ After that, you can apply your stashed changes back:
 ```
 git stash pop
 ```
+### Force push (overwrite remote)
+```
+git push origin main --force
+```
