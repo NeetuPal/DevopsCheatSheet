@@ -339,3 +339,7 @@ If you already pushed the commit, you’ll need to force push:
 ```
 git push origin main --force
 ```
+### Find the root of the repo where git initialised
+```sh
+git rev-parse --show-toplevel
+```
